@@ -1,24 +1,15 @@
-import "./App.css";
-import Weather from "./Weather";
+import Search from "./Search";
+import Card from "./Card";
+import Git from "./Git";
 
-function App() {
-  const city = "Rome";
-
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello React º_°</h1>
-        <h3>from {city}</h3>
-        <br />
-        <Weather city="Tokyo" />
-        <br />
-        <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
-          SheCodes
-        </a>
-        <img src="./images/clear-day.svg" alt="Beatiful icon for an example" />
-      </header>
+      <div className="container-size">
+        <Search />
+        <Card />
+        <Git />
+      </div>
     </div>
   );
 }
-
-export default App;
