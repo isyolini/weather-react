@@ -1,22 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Weather from "./Weather";
 
 function App() {
+  const city = "Rome";
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <h1>Hello React º_°</h1>
+        <h3>from {city}</h3>
+        <br />
+        <Weather city="Tokyo" />
+        <br />
+        <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
+          SheCodes
         </a>
+        <img
+          src="./images/example.jpg"
+          alt="Beatiful background for an example"
+        />
       </header>
     </div>
   );
