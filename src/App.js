@@ -15,10 +15,7 @@ function App() {
         <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
           SheCodes
         </a>
-        <img
-          src="./images/example.jpg"
-          alt="Beatiful background for an example"
-        />
+        <img src="./images/clear-day.svg" alt="Beatiful icon for an example" />
       </header>
     </div>
   );
