@@ -10,11 +10,15 @@ export default function Search() {
         <div className="input-group mb-3">
           <input
             type="text"
-            className="form-control"
-            placeHolder="Enter a city"
+            className="form-control shadow-sm"
+            placeHolder="Type a city..."
             autocomplete="off"
           />
-          <input className="search-button" type="submit" value="search" />
+          <input
+            className="search-button btn btn-dark shadow-sm"
+            type="submit"
+            value="🔎 Search"
+          />
         </div>
       </form>
     </div>
