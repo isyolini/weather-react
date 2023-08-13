@@ -5,7 +5,7 @@ export default function Git() {
     <p>
       {" "}
       Open-source code by Isy Olini on{" "}
-      <a href="https://github.com/Sandruttee/react-weather-app-homework">
+      <a href="https://github.com/isyolini/weather-react.git" target="_blank">
         GitHub
       </a>
     </p>

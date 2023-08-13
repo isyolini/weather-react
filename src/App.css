@@ -1,11 +1,11 @@
 .App {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  background: linear-gradient(to top, #e99571 0%, #ace0f9 100%);
+  /*text-align: center;*/
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   padding-top: 50px;
   padding-block-end: 35%;
 }
 .container-size {
-  width: 55%;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 30px auto;
 }
