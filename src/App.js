@@ -8,6 +8,8 @@ export default function App() {
       <div className="container-size">
         <Search />
         <Card />
+      </div>
+      <div className="container-size">
         <Git />
       </div>
     </div>
