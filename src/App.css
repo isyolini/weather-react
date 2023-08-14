@@ -1,11 +1,41 @@
 .App {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 28px;
+  white-space: nowrap;
+  width: auto;
+  margin-bottom: 0;
+}
+h1 .city {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
   font-family: "Jost", sans-serif;
   background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   border-radius: 10px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
-  max-width: 800px;
+  max-width: 650px;
   margin: 10px auto;
-  padding-top: 20px;
+  padding-top: 2px;
 }
 
 .container-size {

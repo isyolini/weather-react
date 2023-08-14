@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function Icon() {
-  return (
-    <img
-      src="http://openweathermap.org/img/wn/03d@4x.png"
-      alt="scattered clouds"
-    />
-  );
+  let weatherData = {
+    imgUrl:
+      "https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png",
+  };
+
+  return <img src={weatherData.imgUrl} alt="{weatherData.description}" />;
 }
