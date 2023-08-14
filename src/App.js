@@ -1,3 +1,5 @@
+import React from "react";
+
 import Search from "./Search";
 import Card from "./Card";
 import Git from "./Git";
