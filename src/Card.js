@@ -8,8 +8,8 @@ import "./Card.css";
 
 export default function Card() {
   return (
-    <div className="card-mi">
-      <div className="row">
+    <div className="card-group">
+      <div className="row justify-content-between">
         <div className="col-sm-5">
           <City />
           <Date />

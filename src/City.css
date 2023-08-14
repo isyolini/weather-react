@@ -1,6 +1,7 @@
 h1 {
-  font-size: 800px;
+  font-size: 4.5rem;
   font-weight: 700;
+  line-height: 28px;
   text-transform: uppercase;
   margin-top: 20px;
 }

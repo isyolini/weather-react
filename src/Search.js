@@ -9,10 +9,10 @@ export default function Search() {
       <form className="search-form">
         <div className="input-group">
           <input
-            type="text"
             className="form-control shadow-sm"
+            type="search"
             placeholder="Type a city..."
-            autocomplete="off"
+            autoComplete="off"
           />
           <input
             className="search-button btn btn-dark shadow-sm"
