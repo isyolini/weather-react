@@ -5,11 +5,11 @@ import Git from "./Git";
 export default function App() {
   return (
     <div className="App">
-      <div className="container-size">
+      <div className="container-md container-size">
         <Search />
         <Card />
       </div>
-      <div className="container-size">
+      <div className="footer">
         <Git />
       </div>
     </div>

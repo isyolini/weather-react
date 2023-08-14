@@ -10,13 +10,16 @@ export default function Card() {
   return (
     <div className="card-mi">
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-5">
           <City />
           <Date />
           <Temperature />
           <Description />{" "}
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-2">
+          <Icon />
+        </div>
+        <div className="col-sm-5">
           <Icon />
         </div>
       </div>

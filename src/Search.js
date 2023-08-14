@@ -7,11 +7,11 @@ export default function Search() {
   return (
     <div>
       <form className="search-form">
-        <div className="input-group mb-3">
+        <div className="input-group">
           <input
             type="text"
             className="form-control shadow-sm"
-            placeHolder="Type a city..."
+            placeholder="Type a city..."
             autocomplete="off"
           />
           <input

@@ -1,11 +1,19 @@
 .App {
-  /*;*/
   font-family: "Jost", sans-serif;
   background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
-  padding-top: 50px;
-  padding-block-end: 35%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 10px auto;
+  padding-top: 20px;
 }
+
 .container-size {
-  max-width: 600px;
-  margin: 30px auto;
+  margin: 15px auto;
+}
+
+.footer {
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
 }
